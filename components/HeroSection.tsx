@@ -18,16 +18,16 @@ const HeroSection = () => {
           />
         </div>
         <div className="md:mt-2 md:w-3/5">
-          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hi, I&#39;m Hosna!</h1>
+          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hi, I&#39;m Clebson!</h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             I&#39;m a{" "}
             <span className="font-semibold text-teal-600">
-              Software Engineer{" "}
+              Software Developer{" "}
             </span>
-            based in Los Angeles, CA. Working towards creating software that
+            based in Brazil. Working towards creating software that
             makes life easier and more meaningful.
           </p>
-          <Link
+          {/* <Link
             to="projects"
             className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
             activeClass="active"
@@ -37,10 +37,10 @@ const HeroSection = () => {
             duration={500}
           >
             Projects
-          </Link>
+          </Link> */}
         </div>
       </div>
-      <div className="flex flex-row items-center text-center justify-center ">
+      {/* <div className="flex flex-row items-center text-center justify-center ">
         <Link
           to="about"
           activeClass="active"
@@ -51,7 +51,7 @@ const HeroSection = () => {
         >
           <HiArrowDown size={35} className="animate-bounce" />
         </Link>
-      </div>
+      </div> */}
     </section>
   )
 }

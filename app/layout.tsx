@@ -15,7 +15,9 @@ export default function RootLayout({
         <head /> will contain the components returned by the nearest parent
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
-      <head />
+      <head>
+        <meta name="facebook-domain-verification" content="8xoioeyrgawutcn1adzu8rf6zx92ow" />
+      </head>
       <body className="dark:bg-stone-900">
         <ThemeProvider enableSystem={true} attribute="class">
           <Navbar />

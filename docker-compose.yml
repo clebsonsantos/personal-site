@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  personal-site: 
+    image: clebsantos/personal-site:1.0.0
+    restart: always
+    ports:
+      - 3000:3000
+    
