@@ -16,7 +16,7 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head>
-        <meta name="facebook-domain-verification" content="8xoioeyrgawutcn1adzu8rf6zx92ow" />
+        <meta name="facebook-domain-verification" content="0yjswmr1ne1w391p44e3akp1jcn3fb" />
       </head>
       <body className="dark:bg-stone-900">
         <ThemeProvider enableSystem={true} attribute="class">
